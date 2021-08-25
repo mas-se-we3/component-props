@@ -1,9 +1,11 @@
+import Welcome from './Welcome'
+
 const App = () => {
 	return (
 		<div>
-			<div>Hello Alex!</div>
-			<div>Hello Mark!</div>
-			<div>Hello Finn!</div>
+			<Welcome name="Alex" />
+			<Welcome name="Mark" />
+			<Welcome name="Finn" />
 		</div>
 	)
 }
